@@ -1,3 +1,7 @@
+:root {
+  font-size: 16px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -29,17 +33,17 @@ body::-webkit-scrollbar {
 }
 
 h1 {
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
   margin: 0;
   color: #fff;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
   user-select: none;
 }
 
 img {
-  height: 320px;
-  border-radius: 16px;
+  height: 24rem;
+  border-radius: 1rem;
   background: #e45648;
-  box-shadow: 8px 8px 16px #b6453a, -8px -8px 16px #ff6756;
+  box-shadow: 0.5rem 0.5rem 1rem #b6453a, -0.5rem -0.5rem 1rem #ff6756;
   user-select: none;
 }
